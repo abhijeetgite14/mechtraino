@@ -85,31 +85,32 @@
         z-index: 999;
         cursor: pointer;
         transition: 0.3s ease;
-        left: 32%;
+        left: 25%;
         }
         .right img:hover{
-        filter: drop-shadow(16px 5px 20px burlywood);
+        filter: drop-shadow(16px 5px 20px rgb(245, 199, 138));
         }
         h4, p{
         font-family: 'poppins', sans-serif;
         }
 
         .color-box{
-            width: 560px;
-            height: 480px;
+            width: 660px;
+            height: 490px;
             border: 5px solid red;
-            transform: rotate(48deg);
+            transform: rotate(90deg);
             position: absolute;
-            top: 120px;
-            right: 10px;
+            top: 70px;
+            right: -19px;
             }
             /* about sec */
             .about-me-sec{
             height: 100%;
             background-color: var(--secondary-shade);
             color: var(--primary-color);
+            
             }
             .about-me-sec hr{
-            border: 2px solid red;
+            border: 2px solid rgb(225, 23, 23);
             margin-bottom: 2rem;
             }
